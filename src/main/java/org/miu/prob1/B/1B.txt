@@ -1,0 +1,3 @@
+1B.
+The equals method override in the Employee class was not correct. The signature differs from the
+one in the Object class it is inheriting from.

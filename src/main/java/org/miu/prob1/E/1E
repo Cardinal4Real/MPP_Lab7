@@ -1,0 +1,8 @@
+i. If both B and C provide a default implementation of the method(), the class D can choose to override
+the method() and provide its own implementation, or it can simply inherit the implementation from one
+of the interfaces (B or C) using the super keyword (e.g., B.super.method() or C.super.method()).
+
+ii. If D is also an interface, if one interface is more specific (closer in the inheritance hierarchy),
+its default method takes precedence. If there is no clear precedence, the
+sub-interface (D) must explicitly resolve the conflict by overriding the method and using the
+InterfaceName.super.methodName() syntax to call the desired default method.

@@ -1,0 +1,3 @@
+1C.
+equals() was not consistent with hashCode() in the Employee class even though a HashMap has
+been used to track the duplicates. Overriding hashCode() fixed the issue.
